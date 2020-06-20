@@ -1,7 +1,7 @@
 .heading-line,
 .heading-line:after {
     content: "";
-    height: 1px;
+    height: 2px;
     display: block
 }
 
@@ -55,7 +55,7 @@
 
 .heading-line:after {
     position: relative;
-    width: 50px;
+    width: 162px;
     background: #f83853;
     margin: 15px auto auto
 }
