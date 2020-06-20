@@ -108,8 +108,8 @@
 
 .section-heading p {
     font-size: 16px;
-    font-weight: 400;
-    color: #aaa;
+    font-weight: 500;
+    color: #005998;
     line-height: 160%;
     padding-top: 5px;
     margin-bottom: 0
@@ -1255,7 +1255,7 @@
     font-size: 13px;
     font-weight: 500;
     text-align: center;
-    color: #aaa;
+    color: #005998;
     margin: 5px 0
 }
 
@@ -1418,7 +1418,7 @@
 }
 
 .blog-grid-text p {
-    color: #aaa;
+    color: #005998;
     font-size: 15px;
     font-weight: 400;
     line-height: 170%
@@ -1693,7 +1693,7 @@
 }
 
 .blog-post-text p {
-    color: #aaa;
+    color: #005998;
     font-size: 15px;
     font-weight: 400;
     line-height: 170%;
@@ -1756,7 +1756,7 @@
 
 .contact-info p {
     font-size: 15px;
-    color: #aaa;
+    color: #005998;
     line-height: 170%;
     margin-top: 15px
 }
@@ -1767,7 +1767,7 @@
 
 .contact-form input,
 .contact-form textarea {
-    color: #aaa;
+    color: #005998;
     font-size: 14px;
     font-weight: 500;
     border-radius: 2px;
