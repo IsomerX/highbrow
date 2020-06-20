@@ -346,16 +346,16 @@
     letter-spacing: .5px;
     color: #fff;
     -webkit-transition-duration: .3s;
-    transition-duration: .3s
+    transition-duration: .3s;
 }
 
 .navbar-custom .navbar-links-custom li a i {
     font-size: 9px;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-    background-color: #f83853
+    background-color: #f83853;
 }
 
 @media screen and (max-width:964px) {
@@ -2037,7 +2037,8 @@
 .rev-slider-content {
     z-index: 19!important;
     white-space: nowrap;
-    font-size: 90px;
+    font-size: 100px;
+
     line-height: 90px;
     font-weight: 500;
     color: #fff!important;
