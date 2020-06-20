@@ -74,7 +74,7 @@ Partners carousel
     nav: false,
     dots: false,
     autoplay: true,
-    autoplayTimeout: 3000,  
+    autoplayTimeout: 300,  
     responsiveClass: true,
     autoplayHoverPause:false,
     responsive: {
@@ -99,8 +99,8 @@ Partners carousel
 --------------------------------------*/  
 
     $('.countup').counterUp({
-        delay: 5,
-        time: 2000
+        delay: 1,
+        time: 100
     });
 
 
