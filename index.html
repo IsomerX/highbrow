@@ -554,18 +554,19 @@
                 <p>Reach out to us and we can give your business a boost it deserve!</p>
             </div>
             <div>
-                <form class=contact-form method=post>
+                <form id = "gform" method = "POST" class=contact-form action="https://script.google.com/macros/s/AKfycbxOW_u7D5PhVlvXryfkRjJ0_P5JrK0B4VazBxAPaw/exec">
                     <div class=row>
-                        <div class="col-xs-12 col-sm-6 col-md-6"><input name=email placeholder="E-mail adress" type=email>
+                        <div class="col-xs-12 col-sm-6 col-md-6"><input name=email id = "email" placeholder="E-mail adress" type=email>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6"><input name=phone placeholder="Phone Number"></div>
-                        <div class=col-xs-12><textarea name=message placeholder="Your Message"></textarea></div>
-                        <div class=center-holder><button class="button-xs dark-button mb-15 mt-20" type=submit>Send
+                        <div class="col-xs-12 col-sm-6 col-md-6"><input id = "number" name=phone placeholder="Phone Number"></div>
+                        <div class=col-xs-12><textarea name=message id = "message" placeholder="Your Message"></textarea></div>
+                        <div class=center-holder><button class="button-xs dark-button mb-15 mt-20" type=submit id="buttona">Send
                             Message</button></div>
                     </div>
                 </form>
             </div>
         </div>
+
     </div>
     <footer id="footer">
         <div class="container">
@@ -584,7 +585,6 @@
                 <h2>Pages</h2>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                 </ul>

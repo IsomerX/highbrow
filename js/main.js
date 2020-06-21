@@ -31,12 +31,10 @@ TABLE OF CONTENT
 
 
 $(document).ready(function() {
-
-/*------------------------------------
-    1. Owl Carousel
---------------------------------------*/  
-
-
+  if(document.getElementById('buttona').clicked == true)
+  {
+     window.location.href = "http://www.w3schools.com";
+  }
 
 /*---------------------
 Testmonials
@@ -126,7 +124,7 @@ Partners carousel
     if ($(window).width() > 991){
       if (scroll > 30) {
         $(".navbar-custom").css("background" , "#fff");
-        $(".navbar-links-custom a").css("color" , "#3b3b3b");
+        $(".navbar-links-custom a").css("color" , "#000");
         $(".dropdown-menu a").css("color" , "#999"); 
         $(".navbar-custom").css("border-bottom" , "1px solid #eee"); 
         $(".logo_main").css("display" , "inline-block"); 
@@ -134,7 +132,7 @@ Partners carousel
       }
       else{
         $(".navbar-custom").css("background" , "transparent");  
-        $(".navbar-links-custom a").css("color" , "rgba(255, 255, 255, 0.67)"); 
+        $(".navbar-links-custom a").css("color" , "rgba(255, 255, 255, 1)"); 
         $(".dropdown-menu a").css("color" , "#999"); 
         $(".navbar-custom").css("border-bottom" , "1px solid transparent"); 
         $(".logo_main").css("display" , "none"); 
